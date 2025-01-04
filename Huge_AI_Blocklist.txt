@@ -1,12 +1,26 @@
-! AI Blocklist
-2025-01-04
-! copy from: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
-! prove of concept, test, converted to pihole-blacklist (hopefully) ;)
- 
+# AI Blocklist
+# 2025-01-04
+# copy from: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
+# prove of concept, test, converted to pihole-blacklist (hopefully) ;)
 
-!//// Sites hosting nothing but AI generated content/solely focused on AI/has an abundance of AI generated imagery... 100% confirmed
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0 
 
-! Sites that have .ai domain extension
+# /// Sites hosting nothing but AI generated content/solely focused on AI/has an abundance of AI generated imagery... 100% confirmed
+
+# Sites that have .ai domain extension
 0.0.0.0 julius.ai
 0.0.0.0 cgdream.ai
 0.0.0.0 tryleap.ai
@@ -334,7 +348,7 @@
 0.0.0.0 llamagen.ai
 
 
-! Sites that have .com domain extension
+# Sites that have .com domain extension
 0.0.0.0 chatbot.com
 0.0.0.0 aicreate.com
 0.0.0.0 appypie.com
@@ -630,7 +644,7 @@
 0.0.0.0 beatcoynz-artwork.com
 0.0.0.0 stlmax.com
 
-! Sites that have .art domain extension
+# Sites that have .art domain extension
 0.0.0.0 imagine.art
 0.0.0.0 jasper.art
 0.0.0.0 artgeneratorai.art
@@ -731,7 +745,7 @@
 0.0.0.0 aiphotos123.art
 
 
-! Sites that have .co domain extension
+# Sites that have .co domain extension
 0.0.0.0 huggingface.co
 0.0.0.0 clipdrop.co
 0.0.0.0 postalai.co
@@ -750,7 +764,7 @@
 0.0.0.0 aiartmaster.co
 
 
-! Sites that have .net domain extension
+# Sites that have .net domain extension
 0.0.0.0 illusiondiffusion.net
 0.0.0.0 kreaai.net
 0.0.0.0 nicepixels.net
@@ -772,7 +786,7 @@
 0.0.0.0 vitalentum.net
 
 
-! Sites that have miscellaneous domain extensions (.pub, .io, .cc, et cetera)
+# Sites that have miscellaneous domain extensions (.pub, .io, .cc, et cetera)
 0.0.0.0 getmerlin.in
 0.0.0.0 aitree.io
 0.0.0.0 transpic.cn
@@ -922,7 +936,7 @@
 0.0.0.0 stl.team
 
 
-! Google Play AI applications
+# Google Play AI applications
 0.0.0.0 com.sola.anime.ai.generator
 0.0.0.0 com.vyroai.animeart
 0.0.0.0 ai.art.anime
@@ -947,12 +961,12 @@
 0.0.0.0 com.vyroai.animeart
 
 
-! Apple AI applications
+# Apple AI applications
 0.0.0.0 apple.com/us/app/ai-art-generator-hitpaw/id6444304300
 0.0.0.0 apple.com/us/app/pixai-ai-anime-art-generator/id6474528911
 
 
-! Gross nudify sites/deepfakes/porn (why isn't this illegal?!?!)
+# Gross nudify sites/deepfakes/porn (why isn't this illegal?!?!)
 0.0.0.0 sukebezone.com
 0.0.0.0 fantasygf.ai
 0.0.0.0 n8ked.app
@@ -1106,9 +1120,9 @@
 0.0.0.0 girlfriend.ai
 
 
-! //// Block lists of individual users
+# //// Block lists of individual users
 
-! Block list of AI "artists"/orgs (twitter)
+# Block list of AI "artists"/orgs (twitter)
 0.0.0.0 x.com/ew_corpse
 0.0.0.0 twitter.com/ew_corpse
 0.0.0.0 x.com/TimChia83
@@ -1216,7 +1230,7 @@
 0.0.0.0 x.com/AyakonArts/
 
 
-! Block list of AI "artists"/orgs (youtube)
+# Block list of AI "artists"/orgs (youtube)
 0.0.0.0 youtube.com/@shadiversity
 0.0.0.0 youtube.com/channel/UCkmMACUKpQeIxN9D9ARli1Q
 0.0.0.0 youtube.com/@SHAD_AI
@@ -1228,7 +1242,7 @@
 0.0.0.0 youtube.com/@OlivioSarikas
 
 
-! Block list of AI "artists"/orgs (instagram)
+# Block list of AI "artists"/orgs (instagram)
 0.0.0.0 instagram.com/_prateekarora
 0.0.0.0 instagram.com/xonorika
 0.0.0.0 instagram.com/slickcityceo
@@ -1272,7 +1286,7 @@
 0.0.0.0 instagram.com/wand.official
 
 
-! Block list of AI "artists"/orgs (pinterest)
+# Block list of AI "artists"/orgs (pinterest)
 0.0.0.0 pinterest.com/warking999999
 0.0.0.0 pinterest.com/racingtff
 0.0.0.0 pinterest.com/aquanier2b
@@ -1335,7 +1349,7 @@
 0.0.0.0 pinterest.com/fira1747
 
 
-! Block list of AI "artists"/orgs (behance)
+# Block list of AI "artists"/orgs (behance)
 0.0.0.0 behance.net/oliviosarikas
 0.0.0.0 behance.net/ai_nevys_creator
 0.0.0.0 behance.net/jiboncrafts01
@@ -1347,11 +1361,11 @@
 0.0.0.0 behance.net/zeeshi
 
 
-! Block list of AI "artists"/orgs (ko-fi)
+# Block list of AI "artists"/orgs (ko-fi)
 0.0.0.0 ko-fi.com/ainomad
 
 
-! Block list of AI "artists"/orgs (deviantart)
+# Block list of AI "artists"/orgs (deviantart)
 0.0.0.0 deviantart.com/vyerran
 0.0.0.0 deviantart.com/alyskan
 0.0.0.0 deviantart.com/rasooliartworks
@@ -1369,25 +1383,25 @@
 0.0.0.0 deviantart.com/aismart
 
 
-! Block list of AI "artists"/orgs (artstation)
+# Block list of AI "artists"/orgs (artstation)
 0.0.0.0 artstation.com/tryintogetthere
 
 
-! Block list of AI "artists"/orgs (facebook)
+# Block list of AI "artists"/orgs (facebook)
 0.0.0.0 facebook.com/cuteanimegirl99
 0.0.0.0 facebook.com/cuteanimegirl99
 0.0.0.0 facebook.com/TheTiniestTiger
 
 
-! Artstation shit
+# Artstation shit
 0.0.0.0 artstation.com/artwork/KOJ80W
 
 
-! s.id garbage
+# s.id garbage
 0.0.0.0 s.id/AIArtGaia
 
 
-! ko-fi garbage
+# ko-fi garbage
 0.0.0.0 ko-fi.com/s/cfcbe64e46
 0.0.0.0 ko-fi.com/s/0b1ee02cef
 0.0.0.0 ko-fi.com/s/12dd0f892e
@@ -1395,7 +1409,7 @@
 0.0.0.0 ko-fi.com/s/af9a23d375
 
 
-! Freepik garbage
+# Freepik garbage
 0.0.0.0 freepik.com/premium-ai-image
 0.0.0.0 freepik.com/ai
 0.0.0.0 freepik.com/free-ai-image
@@ -1406,11 +1420,11 @@
 0.0.0.0 freepik.com/author/smmstore773
 
 
-! Linkedin garbage
+# Linkedin garbage
 0.0.0.0 linkedin.com/in/justmaier
 
 
-! Medium garbage
+# Medium garbage
 0.0.0.0 medium.com/@inchristiely
 0.0.0.0 medium.com/@aitubo011
 0.0.0.0 medium.com/mlearning-ai
@@ -1419,18 +1433,18 @@
 0.0.0.0 medium.com/@queenskisivuli
 
 
-! // Miscellaneous crypto/nft shit
+# // Miscellaneous crypto/nft shit
 0.0.0.0 cryptoart.io
 0.0.0.0 opensea.io
 0.0.0.0 datadriveninvestor.com
 
 
-! // Etsy shit
+# // Etsy shit
 0.0.0.0 etsy.com/listing/1458059429
 0.0.0.0 etsy.com/listing/1368236844
 
 
-! // Individual Pinterest shit
+# // Individual Pinterest shit
 0.0.0.0 pinterest.com/pin/428053139600411583
 0.0.0.0 pinterest.com/pin/143130094401282814
 0.0.0.0 pinterest.com/pin/1041879695027157288/
@@ -1442,31 +1456,31 @@
 0.0.0.0 pinterest.com/pin/idleturtle85-a-very-cute-baby-peacock--482518547589787278
 0.0.0.0 pinterest.com/pin/reference--13088655160761671
 
-! // Adobe shit
+# // Adobe shit
 0.0.0.0 adobe.com/products/firefly
 0.0.0.0 adobe.com/ca/products/firefly
 0.0.0.0 adobe.com/uk/products/firefly
 
-! // Individual Adobe Stock shit
+# // Individual Adobe Stock shit
 0.0.0.0 stock.adobe.com/images/abstract-painting-about-anime-girl-with-close-up-view-at-the-face-splash-colour-art-portrait-of-anime-girl-digital-art-style-illustration-painting-generative-ai/569091927
 0.0.0.0 stock.adobe.com/images/abstract-painting-about-anime-girl-with-close-up-view-at-the-face-splash-colour-art-portrait-of-anime-girl-digital-art-style-illustration-painting-generative-ai/569091986
 
 
-! // Individual Artstation shit
+# // Individual Artstation shit
 0.0.0.0 artstation.com/artwork/kQZoLA
 
 
-! // Individual Instagram
+# // Individual Instagram
 0.0.0.0 instagram.com/quran_makes_me_smile/p/CsRO1YpPCAX
 0.0.0.0 instagram.com/launchdsigns/p/Ctg9hxcA6Lj
 0.0.0.0 instagram.com/percipietro/p/DAhljhFOZU8
 
 
-! // Fiverr shit
+# // Fiverr shit
 0.0.0.0 fiverr.com/bleassome
 
 
-! //// Block list of AI subreddits
+# //// Block list of AI subreddits
 0.0.0.0 reddit.com/r/StableDiffusion
 0.0.0.0 reddit.com/r/aiArt
 0.0.0.0 reddit.com/r/midjourney
@@ -1638,26 +1652,26 @@
 0.0.0.0 reddit.com/r/aiyiff
 
 
-! // Block list of AI reddit users
+# // Block list of AI reddit users
 0.0.0.0 reddit.com/user/aidaily0
 0.0.0.0 reddit.com/user/Wyprany
 0.0.0.0 reddit.com/user/AIContent
 0.0.0.0 reddit.com/user/TrickyPride
 
 
-! // Reddit shit (placeholder)
+# // Reddit shit (placeholder)
 
 
-! // Tumblr shit
+# // Tumblr shit
 0.0.0.0 dalle2.tumblr.com
 
 
-! // Pixels
+# // Pixels
 0.0.0.0 pixels.com/featured/beautiful-chinese-dragon-lmzkone-narciso-marlene
 0.0.0.0 pixels.com/profiles/lm2kone
 
 
-! // Amazon shit
+# // Amazon shit
 0.0.0.0 amazon.com/Cute-Anime-Girls-Fantasy-Inspired-Characters/dp/B0C47SW6NT
 0.0.0.0 amazon.com/Cat-Coloring-Book-Wearing-Scarves/dp/B0CVTYD34P
 0.0.0.0 amazon.com/Easter-Rabbit-Coloring-Book-Lovers/dp/B0CVVJQP39
@@ -1677,7 +1691,7 @@
 0.0.0.0 amazon.com/stores/Aeryn-Zen/author/B0C7NL912Q
 
 
-! // AI content farms/spam
+# // AI content farms/spam
 0.0.0.0 boddeswasusi.github.io
 0.0.0.0 linuxcapable.com
 0.0.0.0 stl24.com
@@ -1696,19 +1710,19 @@
 0.0.0.0 fullbloomclub.net
 
 
-! // VoiceMod shit
+# // VoiceMod shit
 0.0.0.0 tuna.voicemod.net/sound/1fdc3b37-441c-4a34-ae88-853bbbb947bb
 
 
-! // Getty Wallpapers
+# // Getty Wallpapers
 0.0.0.0 gettywallpapers.com/cute-anime-girl-profile-pictures
 
 
-! // Tiktok
+# // Tiktok
 0.0.0.0 tiktok.com/@ku_13js
 
 
-! // Behance (standalone galleries)
+# // Behance (standalone galleries)
 0.0.0.0 behance.net/gallery/209291699/AI-Generated-Creative-Posts
 0.0.0.0 behance.net/gallery/208813917/AI-Art-Photography-Portfolio
 0.0.0.0 behance.net/gallery/209354857/AI-Gen-Visuals
@@ -1720,21 +1734,21 @@
 0.0.0.0 behance.net/gallery/210345701/A-Jewel-in-the-Sky
 
 
-! // [Placeholder] Operation: Baby Peacock (Removing AI-generated Animal Misinformation/Images; Non-categorized)
+# // [Placeholder] Operation: Baby Peacock (Removing AI-generated Animal Misinformation/Images; Non-categorized)
 
 
-! // Redbubble (standalone pins)
+# // Redbubble (standalone pins)
 0.0.0.0 redbubble.com/i/pin/Steampunk-female-portrait-Cel-shading-Japan-anime-style-by-DigitalEmporio/152924525.NP9QY
 
 
-! // Redbubble Accounts
+# // Redbubble Accounts
 0.0.0.0 redbubble.com/people/digitalemporio/shop
 
 
-! // Google AI Overview
+# // Google AI Overview
 google.com##.YzCcne:remove()
 
 
-! // Just in case exceptions
+# // Just in case exceptions
 mail.google.com#@#a[href*="/play.ht
 mail.google.com#@#a[href*=".play.ht
