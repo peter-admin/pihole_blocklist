@@ -1,3 +1,6 @@
 julius.ai
 cgdream.ai
 tryleap.ai
+0.0.0.0 julius.ai
+0.0.0.0 cgdream.ai
+0.0.0.0 tryleap.ai
