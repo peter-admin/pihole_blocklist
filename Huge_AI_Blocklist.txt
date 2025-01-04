@@ -6,6 +6,9 @@
 # /// Sites hosting nothing but AI generated content/solely focused on AI/has an abundance of AI generated imagery... 100% confirmed
 
 # Sites that have .ai domain extension
+julius.ai
+cgdream.ai
+tryleap.ai
 0.0.0.0 julius.ai
 0.0.0.0 cgdream.ai
 0.0.0.0 tryleap.ai
